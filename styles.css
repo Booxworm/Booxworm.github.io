@@ -1,0 +1,5 @@
+.header {
+  background-image: url("pictures/ocean.jpg"), linear-gradient(#000000, #000001);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
