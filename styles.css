@@ -1,5 +1,15 @@
-.header {
-  background-image: url("pictures/ocean.jpg"), linear-gradient(#000000, #000001);
-  background-repeat: no-repeat;
-  height: 100vh;
+body {
+  background-color: #000;
+}
+
+.main {
+  background-color: #d3d3d3;
+  color: #fff;
+  margin: 0px 100px 0px 100px;
+  padding: 50px 50px 50px 50px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
