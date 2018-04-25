@@ -1,7 +1,11 @@
 $(document).ready(function(){
-  $(".thumbnail").mouseover(function(){
-    $(this).addClass("fade");
+  $("image-text").hide();
+  
+  $(".projects > div").mouseover(function(){
+    $(this).find(".thumbnail").css("opacity", 0.2);
+    $(this).find(".image-text").show();
   }).mouseout(function(){
-    removeClass("fade");
+    $(this).find(".thumbnail").css("opacity", 1);
+    $(this).find(".image-text").hide();
   });
 });
